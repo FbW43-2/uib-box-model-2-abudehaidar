@@ -1,0 +1,67 @@
+.container-main {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+  height: 80vh;
+}
+
+.container-hf {
+  max-width: 1100px;
+  padding: 10px;
+  margin: auto;
+}
+
+header {
+  background-color: yellow;
+}
+/*
+header
+display: flex;display
+justify-content: space-between;
+*/
+
+/* how to align item to center without using flex box? ask Marko*/
+
+.header-div {
+  width: 180px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+/* when resizing the web page, footer is over shadowing the text, how to fix footer*/
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.float {
+  float: right;
+}
+section {
+  margin-bottom: 50px;
+}
+.box {
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+  line-height: 0;
+}
+
+.margin {
+  border: dashed grey;
+  background-color: white;
+}
+
+.border {
+  background-color: green;
+}
+.padding {
+  background-color: lightblue;
+}
+
+.content {
+  border: dashed grey;
+  background-color: white;
+}

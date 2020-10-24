@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="solution-1.css" />
+    <title>CSS Box Model</title>
+  </head>
+
+  <body>
+    <header>
+      <span
+        ><img src="/image/w3school.png" alt="logo w3school" width="70px"
+      /></span>
+      <span>CSS</span>
+      <span>HTML</span>
+      <span>JAVASCRIPT</span>
+      <span>PAYTHON</span>
+      <span>SQL</span>
+    </header>
+    <main>
+      <section>
+        <h1>The CSS Box Model</h1>
+        <p>
+          All HTML elements can be considered as boxes. In CSS, the term "box
+          model" is used when talking about design and layout.
+        </p>
+        <p>
+          The CSS box model is essentially a box that wraps around every HTML
+          element. It consists of: margins, borders, padding, and the actual
+          content. The image below illustrates the box model:
+        </p>
+      </section>
+      <section>
+        <div class="box margin">
+          Margin
+          <div class="box border">
+            Border
+            <div class="box padding">
+              Padding
+              <div class="box content">Content</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <p>Explanation of the different parts:</p>
+        <ul>
+          <li>
+            Content - The content of the box, where text and images appear
+          </li>
+          <li>
+            Padding - Clears an area around the content. The padding is
+            transparent
+          </li>
+          <li>Border - A border that goes around the padding and content</li>
+          <li>
+            Margin - Clears an area outside the border. The margin is
+            transparent
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <span>follow us on Twitter</span>
+      <span>Copyright &copy; 2020 W3Schools</span>
+    </footer>
+  </body>
+</html>
